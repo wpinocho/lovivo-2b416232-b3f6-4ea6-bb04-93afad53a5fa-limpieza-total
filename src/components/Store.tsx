@@ -26,7 +26,7 @@ const Store: React.FC = () => {
   }, [selectedCategory, searchTerm]);
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div id="products-section" className="container mx-auto px-4 py-8">
       <div className="mb-8">
         <h2 className="text-3xl font-bold text-center mb-2">Productos de Limpieza</h2>
         <p className="text-gray-600 text-center">Encuentra todo lo que necesitas para mantener tu hogar impecable</p>
